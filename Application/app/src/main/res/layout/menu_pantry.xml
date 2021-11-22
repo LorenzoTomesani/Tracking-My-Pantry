@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="MY PANTRY"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/iconFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_filter"
+        android:layout_toLeftOf="@id/iconSettings"
+        android:layout_marginRight="30dp"
+        app:tint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/iconSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_three_dots"
+        android:layout_toLeftOf="@id/iconExit"
+        android:layout_marginRight="30dp"
+        app:tint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/iconExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_exit"
+        android:layout_alignParentRight="true"
+        app:tint="@color/white" />
+
+
+
+</RelativeLayout>

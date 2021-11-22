@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:context=".Pantry"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/SearchEditText"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_search"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="text"
+            android:hint="Cerca per nome"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non sono presenti prodotti"
+            android:textColor="@color/green"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:id="@+id/noProducts"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_prod"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            tools:listitem="@layout/product_item"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

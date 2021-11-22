@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tracking My Pantry</string>
+    <string name="login">LOGIN</string>
+    <string name="Register">REGISTRATI</string>
+    <string name="or">o</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="nickname">nickname</string>
+    <string name="nome"><b>nome</b></string>
+    <string name="descrizione"><b>descrizione</b></string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+
+    <string name="dialog_title_bar">Inserisci il barcode</string>
+    <string name="chose_prod_dialog">Scegli uno dei prodotti</string>
+    <string name="add_new_prod">Aggiungi il prodotto</string>
+
+
+
+    <string name="conferma">CONFERMA</string>
+    <string name="annulla">ANNULLA</string>
+    <string name="expire_not_set">Scadenza non ancora impostata</string>
+    <string name="type_not_set">Tipologia non ancora impostata</string>
+
+    <string name="expire">scadenza: </string>
+
+    <string name="type">Seleziona quali tipi visualizzare</string>
+    <string name="which_type">"Seleziona la tipologia"</string>
+
+    <string name="error">Errore. riprovare</string>
+    <string name="login_fail">email o password sbagliati</string>
+
+    <string name="product_insert">prodotto inserito correttamente</string>
+
+    <string name="already_insert">prodotto già presente!</string>
+
+</resources>
